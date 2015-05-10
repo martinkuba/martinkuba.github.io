@@ -9,7 +9,7 @@ email: martin@martinkuba.com
 description: Software Developer
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.martinkuba.com" # the base hostname & protocol for your site
+url: "http://martinkuba.github.io" # the base hostname & protocol for your site
 
 twitter_username: martin_kuba
 github_username:  martinkuba

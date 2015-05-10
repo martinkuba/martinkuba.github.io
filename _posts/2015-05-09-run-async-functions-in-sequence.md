@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Run async functions in sequence
+comments: true
 ---
 
-A few times in the past I have had to dynamically create a list of asynchronous operations and run them sequentially.  The [Q][Q] library shows how to do this.  In summary, when we have an array of functions that return promises, we can do this:
+A few times in the past I have had to dynamically create a list of asynchronous operations and run them sequentially.  In this post, I will show how to accomplish this using promises.
+
+The [Q][Q] library shows how to do this.  In summary, when we have an array of functions that return promises, we can do this:
 
 {% highlight javascript linenos %}
 var funcs = [f1, f2, f3, f4];

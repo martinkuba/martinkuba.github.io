@@ -3764,3 +3764,5 @@ function reduce (arr, fn, next) {
 }
 
 },{}]},{},[28,34,33,30,31,11])
+
+console.log('in aggregator')

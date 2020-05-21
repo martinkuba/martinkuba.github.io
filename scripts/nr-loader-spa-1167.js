@@ -2168,3 +2168,7 @@ function notWrappable (fn) {
 }
 
 },{}]},{},["loader",2,16,5,3,4])
+
+;NREUM.init={privacy:{cookies_enabled:false}};
+;NREUM.loader_config={accountID:"550352",trustKey:"1",agentID:"21334031",licenseKey:"2fec6ab188",applicationID:"21334031"}
+;NREUM.info={beacon:"staging-bam.nr-data.net",errorBeacon:"staging-bam.nr-data.net",licenseKey:"2fec6ab188",applicationID:"21334031",sa:1}

@@ -1454,6 +1454,7 @@ newrelic.noticeError = function (err, customAttributes) {
 
 },{}],20:[function(require,module,exports){
 module.exports = function dataSize (data) {
+  console.log('datasize')
   if (typeof data === 'string' && data.length) return data.length
   if (typeof data !== 'object') return undefined
   if (typeof ArrayBuffer !== 'undefined' && data instanceof ArrayBuffer && data.byteLength) return data.byteLength
